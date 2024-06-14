@@ -1,0 +1,10 @@
+#1
+class car:
+    def __init__(self,name,country,milage):
+        self.name = name
+        self.contry = country
+        self.milage = milage
+        def __eg__(self,other):
+            if self.contry == other.country:
+                return True
+            return False
